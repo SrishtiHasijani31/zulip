@@ -29,7 +29,7 @@ from .config import get_secret
 ## support@example.com is totally reasonable, as is admin@example.com.
 ## Do not put a display name; e.g. "support@example.com", not
 ## "Zulip Support <support@example.com>".
-ZULIP_ADMINISTRATOR = "srishti.hasijani31@gmail.com"
+ZULIP_ADMINISTRATOR = "zulip-admin@example.com"
 
 ## The user-accessible Zulip hostname for this installation, e.g.
 ## zulip.example.com.  This should match what users will put in their
@@ -38,8 +38,7 @@ ZULIP_ADMINISTRATOR = "srishti.hasijani31@gmail.com"
 ##
 ## If you need to access the server on a specific port, you should set
 ## EXTERNAL_HOST to e.g. zulip.example.com:1234 here.
-EXTERNAL_HOST = "zulip.strathclyde.com"
-
+EXTERNAL_HOST = "zulip.example.com"
 ## Alternative hostnames.  A comma-separated list of strings
 ## representing the host/domain names that your users can enter in
 ## their browsers to access Zulip.  This is a security measure; for
