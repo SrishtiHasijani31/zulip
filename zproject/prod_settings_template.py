@@ -39,6 +39,7 @@ ZULIP_ADMINISTRATOR = "zulip-admin@example.com"
 ## If you need to access the server on a specific port, you should set
 ## EXTERNAL_HOST to e.g. zulip.example.com:1234 here.
 EXTERNAL_HOST = "zulip.example.com"
+
 ## Alternative hostnames.  A comma-separated list of strings
 ## representing the host/domain names that your users can enter in
 ## their browsers to access Zulip.  This is a security measure; for
