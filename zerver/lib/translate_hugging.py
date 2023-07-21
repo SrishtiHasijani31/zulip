@@ -7,7 +7,7 @@ class HuggingTranslator:
     def __init__(self):
         config_filename = 'translation_config.json'
         self.config = self.load_config(config_filename)
-        self.tokenizer = MarianTokenizer.from_pretrained(self.config['model_name'])
+        self.tokenizer = MarianTokenizer.frompretrained(self.config['model_name'])
         self.model = MarianMTModel.from_pretrained(self.config['model_name'])
 
     @staticmethod
