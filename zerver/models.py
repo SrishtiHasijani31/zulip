@@ -1514,7 +1514,7 @@ class UserBaseSettings(models.Model):
     # restore a version of the setting, preserving who had it enabled.
     left_side_userlist = models.BooleanField(default=False)
     default_language = models.CharField(default="en", max_length=MAX_LANGUAGE_ID_LENGTH)
-    preferred_language = models.CharField(default="en", max_length=MAX_LANGUAGE_ID_LENGTH, blank=True, null=True)
+    preferred_language = models.CharField(default="en", max_length=MAX_LANGUAGE_ID_LENGTH, null=True)
     # This setting controls which view is rendered first when Zulip loads.
     # Values for it are URL suffix after `#`.
     default_view = models.TextField(default="recent_topics")
