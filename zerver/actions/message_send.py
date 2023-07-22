@@ -1706,6 +1706,7 @@ def internal_send_huddle_message(
 
 def translate_messages(message_content, recipient_id):
     recipient_profile = UserProfile.objects.get(id=recipient_id)
+    
 
     preferred_language = recipient_profile.preferred_language
 
