@@ -498,7 +498,7 @@ class Realm(
 
     # Defaults for new users
     default_language = models.CharField(default="en", max_length=MAX_LANGUAGE_ID_LENGTH)
-    preferred_language = models.CharField(default="en", max_length=MAX_LANGUAGE_ID_LENGTH, null=True)
+    preferred_language = models.CharField(default="fr", max_length=MAX_LANGUAGE_ID_LENGTH, null=True)
 
     DEFAULT_NOTIFICATION_STREAM_NAME = "general"
     INITIAL_PRIVATE_STREAM_NAME = "core team"
